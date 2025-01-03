@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #0f1b21;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ================================================================================= */
+
+/* Container css */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+/* Main heading or title css */
+.container h1{
+  position: absolute;
+  font-size: 3rem;
+  top: 40px;
+  margin: auto;
+  margin-bottom: 2rem;
+  font-family: monospace;
+  color:#26ffcb;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.container h1 span{
+  color: white;
+}
+
+/* CSS for the heading which displays the turn of the player */
+.container h3{
+  position: absolute;
+  top: 15%;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+
+span{
+  color: #26ffcb;
+}
+
+/* ================================================================================= */
+
+/* Css for the main board of the the game */
+
+.board{
+  max-height: 500px;
+  max-width: 500px;
+  min-width: 300px;
+  min-height: 300px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50%;
+
+}
+
+/* Css for the small boxes */
+.boxes{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  min-width: 80px;
+  min-height: 80px;
+  background-color: #1f3540;
+  border: solid #0f1b21;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Css for the images like circle and cross that we are inserting to the div on a click */
+.boxes img{
+  height: 70px;
+  text-align: center;
+}
+
+/* ================================================================================= */
+
+/* Css for the reset button */
+.reset{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #1f3540;
+  color: #26ffcb;
+  font-size: 1.2rem;
+  top: 75%;
+  margin: auto;
+
+}
+
+/* ================================================================================= */
+
+/* Css for entry component  */
+
+/* Main entry form */
+.entryform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color:#1f3540;
+  text-align: center;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  animation: animation1 3s infinite alternate;
+ font-family: monospace;
+}
+
+/* Input fields inside the entry form */
+.entryform input{
+  margin-top:10px ;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-family:monospace;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 5px 2px;
+}
+
+/* css for Labels for player 1 and player 2  */
+label{
+  margin-right: 50%;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+/* ================================================================================= */
+/* Css for the submit button */
+.btn{
+
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  outline: none;
+  border: transparent;
+  background-color: #26ffcb;
+  padding: 10px 15px;
+ 
+}
+
+
+/* ================================================================================= */
+
+/* Css for ticket container */
+.ticket {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 20px;
+  height: 50px;
+  background-color: gold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  animation: fall 3s linear infinite;
+  opacity: 0;
+}
+
+/* ================================================================================= */
+
+/* Animation for input field */
+@keyframes animation1 {
+  from{
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 70px;
+  }
+  to{
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+/* ================================================================================= */
+
+/* Animation for tickets falling */
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+/* ================================================================================= */
+
+
+/* Media querries */
+
+
+@media screen and (max-Width:760px) {
+  .board{
+    margin-top: 100%;
+    height: auto;
+    width: auto;
+   
+  }
+}
+@media screen and (max-Width:450px) {
+  .container h1{
+    font-size: 2rem;
+  }
+  .board{
+    margin-top: 60%;
+    height: auto;
+    width: auto;
+   
+  }
+  .boxes{
+    height: 70px;
+    width: 70px;
+  }
+  .boxes img{
+    height: 60px;
+  }
+  .container h3{
+    top: 18%;
+  }
+  .reset{
+  top: 70%;
+  }
+}
+
+
+
+
+
