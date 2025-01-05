@@ -1,0 +1,20 @@
+.mb-3{
+  margin-top: 80px;
+}
+#flexSwitchCheckDefault{
+  cursor: pointer;
+}
+.alert-dismissible{
+  margin-top: 60px;
+}
+.icons{
+  margin: 10px;
+}
+.circle{
+  background-color: aqua;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid black;
+}
