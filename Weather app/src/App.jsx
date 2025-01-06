@@ -9,7 +9,7 @@ function App() {
   const [location, setLocation] = useState({ lat: null, lon: null });
   const [city, setCity] = useState('');
   const [error, setError] = useState('');
-  const locationApiKey = '374b2952af78a60ba4e8f60b5ede59e7';
+  const locationApiKey = ''; // Your location finder api key here. I would personaly recomend to use .enve folder and keep all secret information there but just for the sack of simplicity i have don it like this.
 
   const getLocation = () => {
     navigator.geolocation.getCurrentPosition(
