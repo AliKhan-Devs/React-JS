@@ -1,3 +1,5 @@
+// Design of the weather card
+
 import { useState, useEffect } from 'react';
 import { WiHumidity, WiThermometer, WiRaindrops } from 'react-icons/wi';
 import { getWeatherInfo } from '../utils/weatherUtils';
