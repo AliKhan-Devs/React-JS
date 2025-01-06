@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Liberal Party error sees 100 candidates miss Australia election",
+        "description": "More than 100 candidates cannot run in New South Wales after the Liberal party misses a nomination deadline.",
+        "url": "https://www.bbc.co.uk/news/articles/cly84x8rejjo",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7dbe/live/560e4f50-5aba-11ef-82e3-4fc809d4c8ec.jpg",
+        "publishedAt": "2024-08-15T05:22:17.6932035Z",
+        "content": "In a letter to MPs, the party's state parliamentary leader Mark Speakman described the episode as \"probably the worst act of mismanagement\" in the party's history, saying Mr Shields should have asked… [+1735 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Sexsomnia: Woman awarded ‘rare’ payout after rape case dropped",
+        "description": "Jade McCrossen-Nethercott has received £35,000 in damages from the Crown Prosecution Service.",
+        "url": "https://www.bbc.co.uk/news/articles/cwyxdpezyllo",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1a93/live/c9b30c20-5a51-11ef-b2d2-cdb23d5d7c5b.jpg",
+        "publishedAt": "2024-08-15T05:22:16.4542317Z",
+        "content": "In 2017, after a night out with friends, Jade woke up on a sofa with a feeling she had been raped while she slept. Within hours, she had reported it to the police. The suspect offered no comment when… [+1144 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Budget airline Wizz Air launches 'all you can fly' annual deal",
+        "description": "Wizz Air  was named the worst airline for UK flight delays for the third year in a row in June.",
+        "url": "https://www.bbc.co.uk/news/articles/c0k4grpjrylo",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5e94/live/925c3a80-5aab-11ef-8cea-99b2009b26a3.jpg",
+        "publishedAt": "2024-08-15T05:22:14.614543Z",
+        "content": "The discounted price for the yearly pass will be available until 16 August and then rise to 599 euro.\r\nFrom September, subscribers will be able to travel to destinations in Europe, North Africa, the … [+1566 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Kolkata: Thousands march against rape and murder of doctor in India",
+        "description": "Tens of thousands of women march through Kolkata in protest against the rape and murder of a doctor.",
+        "url": "https://www.bbc.co.uk/news/articles/crmwj4z1xpko",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/88bc/live/f8c01e10-5a6d-11ef-8f0f-0577398c3339.jpg",
+        "publishedAt": "2024-08-15T04:22:10.5048187Z",
+        "content": "Despite scant resources, Kolkatas Reclaim the Night march appeared to have been meticulously organised. In an advisory, organisers welcomed women and people from marginalised sexual and gender identi… [+965 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Lebanese hold their breath as mediators scramble to avert all-out war",
+        "description": "Locals in the capital Beirut tell the BBC their fears of another war between Israel and Hezbollah.",
+        "url": "https://www.bbc.co.uk/news/articles/cm2ndvg18j8o",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/291d/live/b2453080-5a7f-11ef-bd30-23f15f42cae1.jpg",
+        "publishedAt": "2024-08-15T03:07:15.8645042Z",
+        "content": "The last time Israel and Hezbollah went to war, in 2006, it lasted six weeks and caused major damage and loss of life in Lebanon. More than 1,000 Lebanese civilians were killed, along with up to 200 … [+1099 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "The Notebook actress Gena Rowlands dies at 94",
+        "description": "The Hollywood legend has been racking up acting awards since the 1950s.",
+        "url": "https://www.bbc.co.uk/news/articles/clyn3p853k5o",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0144/live/ec9de420-5aac-11ef-90bc-7d60a2862b62.jpg",
+        "publishedAt": "2024-08-15T03:07:15.3646292Z",
+        "content": "Both A Woman Under the Influence and Gloria were collaborations with her former husband John Cassavetes. \r\nHer Emmys were for The Betty Ford Story, Face of a Stranger, Hysterical Blindness, and The I… [+941 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Columbia University president after Gaza protests turmoil",
+        "description": "Minouche Shafik's resignation comes a year after she took the position at the Ivy League university.",
+        "url": "https://www.bbc.co.uk/news/articles/cy8431ejnk5o",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/13e3/live/d854e340-5a9a-11ef-82c1-df03d4c3498e.jpg",
+        "publishedAt": "2024-08-15T01:37:14.6456786Z",
+        "content": "The episode marked the first time that mass arrests had been made on Columbia's campus since Vietnam War protests more than five decades ago. \r\nThe move inflammed protests at dozens of colleges acros… [+3505 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "WHO declares Mpox global health emergency",
+        "description": "Scientists are alarmed at the high fatality rate and rapid spread of a new variant of the virus.",
+        "url": "https://www.bbc.co.uk/news/articles/cvg35w27gzno",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b413/live/d368ae10-5a6e-11ef-997c-711b7066309d.jpg",
+        "publishedAt": "2024-08-14T19:52:16.1767272Z",
+        "content": "\"A co-ordinated international response is essential to stop this outbreak and save lives,\" he said.\r\nBy declaring the Mpox outbreak as a public health emergency, it's hoped research, funding, and the… [+1446 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Steve Rosenberg: Ukraine's advance undermines Putin's image as 'Mr Security'",
+        "description": "Ukraine's incursion into Kursk raises questions about Mr Putin's ability to keep Russia safe.",
+        "url": "https://www.bbc.co.uk/news/articles/credw5q0705o",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/ff5b/live/3487e3f0-5a4c-11ef-a35a-ff8deca54a26.jpg",
+        "publishedAt": "2024-08-14T18:07:23.6926007Z",
+        "content": "This time on Russian TV there is no hint of criticism of President Putin; no casting doubt on his decision-making; no suggestion that it is his invasion of Ukraine that has led to this dramatic momen… [+1028 chars]"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Kolkata doctor's rape and murder in hospital alarm India",
+        "description": "The rape and murder of a female doctor in India highlight the violence against healthcare workers.",
+        "url": "https://www.bbc.co.uk/news/articles/c93pqq9r5n4o",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0b64/live/b9fa9960-589e-11ef-aebc-6de4d31bf5cd.jpg",
+        "publishedAt": "2024-08-14T03:07:12.8444767Z",
+        "content": "Things have worsened over the years, says Saraswati Datta Bodhak, a pharmacologist at a government hospital in West Bengal's Bankura district. \"Both my daughters are young doctors and they tell me th… [+1197 chars]"
+      }
+    ]
+  }
