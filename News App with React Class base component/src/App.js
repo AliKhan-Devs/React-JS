@@ -17,7 +17,8 @@ export default class App extends Component {
     this.setState({ progress: progress })
   }
   render() {
-    let country = 'in', apiKey = '9ca0d8eac6de4ae79528c34d5512609d', pageSize = 9;
+    // Use your newsapi key i would recommend to use .env.local but i have done it like this just for the sack of simplicity
+    let country = 'in', apiKey = '', pageSize = 9;
 
     return (
 
