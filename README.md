@@ -19,14 +19,14 @@ To get started with any project in this repository, follow the instructions belo
 
 ## Prerequisites
 Before you begin, ensure that you have the following software installed:
-- **Node.js**: Make sure you have **Node.js** (version 14.x or above) installed on your machine. You can check your Node version by running: node --version ```
-- **npm**: The package manager for JavaScript (comes with Node.js). You can check your npm version by running:  npm --version ```
+- **Node.js**: Make sure you have **Node.js** (version 14.x or above) installed on your machine. You can check your Node version by running: node --version 
+- **npm**: The package manager for JavaScript (comes with Node.js). You can check your npm version by running:  npm --version 
 
 ## Installation
-1. Clone this repository to your local machine: git clone https://github.com/alikhan-devs/React-JS.git ```
-2. Navigate to the project directory:  cd React-JS ```
-3. Install the necessary dependencies:  npm install ```
-4. Once the dependencies are installed, you can start the project by running:  npm start ```
+1. Clone this repository to your local machine: git clone https://github.com/alikhan-devs/React-JS.git 
+2. Navigate to the project directory:  cd React-JS 
+3. Install the necessary dependencies:  npm install 
+4. Once the dependencies are installed, you can start the project by running:  npm start 
 5. Open your browser and navigate to `http://localhost:3000` to see the project in action.
 
 ## Usage
