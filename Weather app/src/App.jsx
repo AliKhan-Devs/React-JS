@@ -1,3 +1,4 @@
+// This file contain the main program 
 import { useState, useEffect } from 'react'
 import './App.css'
 import WeatherCard from './components/WeatherCard'
