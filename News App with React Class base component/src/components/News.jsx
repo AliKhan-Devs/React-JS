@@ -9,7 +9,7 @@ export class News extends Component {
         pageSize: 9,
         country: "us",
         category: 'technology',
-        apiKey: '9ca0d8eac6de4ae79528c34d5512609d',
+        apiKey: '', // Use your newsapi key here i would recommend to use .env.local for secret information and then import from there but i have leaved it just for the sack of simplicity
     }
     static propTypes = {
         pageSize: PropTypes.number,
