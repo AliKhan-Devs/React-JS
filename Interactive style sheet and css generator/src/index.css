@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  background-color: #111827;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Add smooth scrolling to the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar styles */
+nav {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+nav button, nav a {
+  backface-visibility: hidden;
+}
+
+.preview-container {
+  min-height: 500px;
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(147, 51, 234, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(147, 51, 234, 0.05) 1px, transparent 1px);
+}
+
+.preview-element {
+  transition: all 0.3s ease;
+}
+
+/* Default styles for preview elements */
+button.preview-element {
+  padding: 0.75rem 1.5rem;
+  background-color: #9333EA;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+button.preview-element:hover {
+  background-color: #7E22CE;
+  transform: translateY(-1px);
+}
+
+img.preview-element {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+div.preview-element {
+  padding: 1.5rem;
+  color: white;
+  background-color: rgba(147, 51, 234, 0.1);
+  border-radius: 0.5rem;
+}
+
+p.preview-element {
+  max-width: 600px;
+  color: white;
+  line-height: 1.6;
+}
+
+a.preview-element {
+  color: #9333EA;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+}
+
+a.preview-element:hover {
+  background-color: rgba(147, 51, 234, 0.1);
+}
+
+ul.preview-element {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: white;
+  line-height: 1.6;
+}
+
+ul.preview-element li {
+  margin: 0.5rem 0;
+}
+
+table.preview-element {
+  border-collapse: collapse;
+  color: white;
+  width: 100%;
+  max-width: 600px;
+  background-color: rgba(147, 51, 234, 0.05);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+table.preview-element th,
+table.preview-element td {
+  border: 1px solid rgba(147, 51, 234, 0.1);
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+table.preview-element th {
+  background-color: rgba(147, 51, 234, 0.1);
+  font-weight: 500;
+}
+
+table.preview-element tr:hover {
+  background-color: rgba(147, 51, 234, 0.05);
+}
+
+input.preview-element {
+  padding: 0.75rem 1rem;
+  background-color: rgba(147, 51, 234, 0.1);
+  border: 1px solid rgba(147, 51, 234, 0.2);
+  color: white;
+  border-radius: 0.375rem;
+  width: 100%;
+  max-width: 300px;
+  transition: all 0.2s ease;
+}
+
+input.preview-element:focus {
+  outline: none;
+  border-color: #9333EA;
+  box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.2);
+}
+
+/* Animations */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes scale {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Animation Classes */
+.bounce { animation: bounce 1s infinite; }
+.fade { animation: fade 1s ease-in; }
+.slide { animation: slide 2s ease-out; }
+.rotate { animation: rotate 2s linear infinite; }
+.scale { animation: scale 2s ease-in-out infinite; }
+.shake { animation: shake 0.5s ease-in-out; }
+.pulse { animation: pulse 1.5s ease-in-out infinite; }
