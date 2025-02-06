@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Web Development",
+        "description": "Building responsive and high-quality websites.",
+        "image": "https://image.slidesdocs.com/responsive-images/background/visualizing-programming-and-coding-in-3d-illustration-powerpoint-background_df5b58148a__960_540.jpg"
+    },
+    {
+        "title": "Graphic Designing",
+        "description": "Creating stunning graphics and visuals.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LEQkHlJxJTFlxg1oPot5fs4ljub8o5bI__gLw40GVTSZW6U6-FS4drsJfaj9ZsYyudk&usqp=CAU"
+    },
+    {
+        "title": "Cybersecurity Consulting",
+        "description": "Ensuring the security of your digital assets.",
+        "image": "https://vlacs.org/wp-content/uploads/2018/12/iStock-1412282189-1024x585.jpg"
+    },
+    {
+        "title": "UI/UX Designing",
+        "description": "Designing user-friendly interfaces and experiences.",
+        "image": "https://i0.wp.com/cdn.dribbble.com/users/427857/screenshots/14487117/media/1d43a345182131381b99bfd4bde1e47d.png?w=1200&ssl=1"
+    },
+    {
+        "title": "DSA & C++",
+        "description": "Providing expertise in Data Structures and Algorithms.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDOj7F1w498Ayzd_4p1zE848ELk2gaZjwq5Wcqn6DBTS1KXSMfDuO3s44EIChnSQllvMM&usqp=CAU"
+    },
+    
+    {
+        "title": "Video Editing",
+        "description": "Transforming your raw footage into captivating visual stories.",
+        "image": "https://fiverr-res.cloudinary.com/videos/t_main1,q_auto,f_auto/zfosf7xxkrrfjkbxgxdo/edit-videos-in-premiere-pro-video-editing-soft.png"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Mr.Khan Solar System Website",
+        "description": "A professional Modren website for MR.Khan Solar System completed on jan 5 2024. R",
+        "image": "projects/Alikhan/p3.JPG",
+        "fullDescription": "NexSky, led by Ali Khan, has successfully created a portfolio website for MR. Khan Solar System. The website serves as a comprehensive platform that provides detailed information about their business, including solar system installation and other related services. It features a brief overview in videos showcasing their solar system installation projects. The site is designed with a clean and professional UI, ensuring a fully responsive experience across all devices. This project highlights the team's expertise and commitment to quality, enhancing MR. Khan Solar System’s online presence and customer engagement. Link: <a style='color: blue;{{ cursor: pointer'}} href='https://mrkhan-solarsystem.vercel.app/' target='_blank' rel='noopener noreferrer'>https://mrkhan-solarsystem.vercel.app</a>"
+    },
+    {
+        "name": "Ecommerece App with Admin Pannel",
+        "description": "This is a complete Ecommerce app wihth an admin pannel, completed on 07 October 2024",
+        "image": "projects/Alikhan/p2.JPG",
+        "fullDescription": "NexSky, led by Engr Ali Khan, a full stack developer and CEO, has successfully developed a comprehensive e-commerce application for Anabeya Collections, a premier women’s clothing store. This robust platform is designed to enhance the shopping experience for both administrators and customers. Admins can effortlessly upload new products, update existing ones, and manage inventory. The app provides a streamlined interface for tracking and managing customer orders, ensuring efficient processing and delivery. Detailed reports and analytics help admins monitor sales performance and customer behavior, enabling data-driven decisions. Customers can explore a wide range of women’s clothing, with detailed descriptions and high-quality images. Users can easily add products to their cart, view their selections, and make adjustments before proceeding to checkout. The app supports a seamless checkout process, including multiple payment options and order confirmation notifications. Customers can place custom orders tailored to their preferences, enhancing the personalized shopping experience. The app integrates home delivery services, ensuring that customers receive their orders conveniently at their doorstep. This e-commerce app not only simplifies the shopping process but also strengthens Anabeya Collections’ online presence, driving growth and customer satisfaction. Link:  https://anabeya-collections.vercel.app/"
+    },
+    {
+        "name": "Logo for Karimi foods & Products.",
+        "description": "This logo was Successfully created by Engr Humais Ali on sep 10, 2024 for Karimi Foods",
+        "image": "projects/Humais/p1.png",
+        "fullDescription": "At NexSky, we take pride in our talented team and their exceptional work. One of our standout projects was recently completed by our skilled graphic designer, Humais. Tasked with creating a logo for Karimi Food and Products, Humais embraced the challenge with creativity and dedication. The project aimed to encapsulate the essence of Karimi Food and Products, a brand known for its quality and tradition. Humais meticulously crafted a logo that not only represents the brand's values but also stands out in the competitive market. His design process involved understanding the client's vision, researching industry trends, and blending modern aesthetics with traditional elements. On September 10, 2024, Humais successfully delivered a logo that exceeded expectations. The new logo is a perfect blend of innovation and tradition, capturing the spirit of Karimi Food and Products. It symbolizes the brand's commitment to quality and its rich heritage, making a lasting impression on its audience. This project highlights Humais's expertise and NexSky's commitment to delivering top-notch design solutions. We are proud of Humais's achievement and excited to see the positive impact this logo will have on Karimi Food and Products."
+    },
+    {
+        "name": "Product Landing Page",
+        "description": "This Product Landing Page was Successfully completed by Engr Ali Khan on September 1, 2024",
+        "image": "projects/Alikhan/p1.JPG",
+        "fullDescription": "At NexSky, we are committed to delivering effective solutions tailored to our clients' needs and budgets. One of our recent projects involved creating a product landing page for Anabeya Collections, completed on September 1, 2024, by our talented full-stack developer, Ali Khan. The goal was to develop a simple yet functional landing page where users could easily purchase products. When a user clicks the 'Buy' button, they are directly navigated to the seller's WhatsApp with the product image and price automatically sent. The seller then asks for the user's location to arrange delivery. This project was executed using the simplest technologies, including HTML, CSS, and JavaScript, to accommodate the client's budget constraints. The result is a streamlined, user-friendly interface that facilitates quick and easy transactions, enhancing the shopping experience for Anabeya Collections' customers."
+    }
+]
